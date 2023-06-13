@@ -1,0 +1,93 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 35px;
+  width: 350px;
+  height: 850px;
+  margin: 0px;
+}
+.profile-div {
+  width: 315px;
+  height: 131px;
+  background-color: #f9e0bb;
+  border-top-left-radius: 50px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: start;
+  margin: 0px;
+}
+.menu-items {
+  width: 332px;
+  height: 706px;
+  background-color: #f9e0bb;
+  border-radius: 50px;
+}
+.profile {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  border-radius: 25px;
+  margin: 18px 8px 17px 27px;
+}
+.profile-name {
+  width: 184px;
+  height: 100px;
+}
+.profile-text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+}
+.username {
+  font-weight: 400;
+  width: 185px;
+  height: 25px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.profile-side {
+  height: 100px;
+  width: 330px;
+}
+.notifications {
+  height: 100px;
+  width: 330px;
+}
+.confession-hall {
+  height: 100px;
+  width: 330px;
+}
+.campus-chronicles {
+  height: 100px;
+  width: 330px;
+}
+.settings {
+  height: 100px;
+  width: 330px;
+}
+
+.line {
+  width: 90%;
+  height: 0.5px;
+  background-color: #000000;
+}
+.sidebar-text {
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 120px;
+  margin-top: 30px;
+  font-weight: 500;
+  position: absolute;
+  font-size: 20px;
+}
+
+custom-icon {
+  font-size: 50px;
+}

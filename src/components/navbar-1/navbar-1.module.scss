@@ -1,0 +1,57 @@
+.root {
+  background-color: white;
+  width: 1920px;
+  height: 200px;
+  // display: flex;
+  // flex-direction: row;
+  // align-items: center;
+  // justify-items: center;
+  // align-content: space-evenly;
+  // justify-content: space-around;
+  // overflow: auto;
+  // position: static;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image1 {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  flex-direction: row;
+}
+.logoname {
+  position: relative;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px 160px 0px 0px;
+  font-size: 50px;
+  right: 380px;
+}
+.search-input {
+  width: 401px;
+  height: 71px;
+  background-color: #f69797;
+  border-radius: 30px;
+  border: none;
+  text-align: start;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px 160px 0px 0px;
+  text-indent: 75px;
+  color: #1d0d0d;
+  line-height: auto;
+
+  // background: var(--color-white);
+  // border-radius: var(--border-radius);
+  // padding: var(--search-padding);
+
+  // background: transparent;
+  // width: 30vw;
+  // margin-left: 1rem;
+  // font-size: 0.9rem;
+  // color: var(--color-dark);
+
+  // color: var(--color-gray);
+}
