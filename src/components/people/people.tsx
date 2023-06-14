@@ -21,7 +21,7 @@ export const People = ({ className }: PeopleProps) => {
                         className={styles['user-dp']}
                     />
                     <div className={styles['user-category']}>
-                        <h1 className={styles['user-name']}>Karlos Daniel Vicario</h1>
+                        <h1 className={styles['user-name']}>Karlos Daniel </h1>
                         <div className={styles['follow-remove-container']}>
                             <h2 className={styles['follow-text']}>Folow</h2>
                             <h2 className={styles['remove-text']}>Remove</h2>
@@ -35,7 +35,7 @@ export const People = ({ className }: PeopleProps) => {
                         className={styles['user-dp']}
                     />
                     <div className={styles['user-category']}>
-                        <h1 className={styles['user-name']}>Erica Joy Cavaneyro</h1>
+                        <h1 className={styles['user-name']}>Erica Joy </h1>
                         <div className={styles['follow-remove-container']}>
                             <h2 className={styles['follow-text']}>Folow</h2>
                             <h2 className={styles['remove-text']}>Remove</h2>
@@ -49,7 +49,7 @@ export const People = ({ className }: PeopleProps) => {
                         className={styles['user-dp']}
                     />
                     <div className={styles['user-category']}>
-                        <h1 className={styles['user-name']}>Hannah Grace Joaquin</h1>
+                        <h1 className={styles['user-name']}>Hannah Grace </h1>
                         <div className={styles['follow-remove-container']}>
                             <h2 className={styles['follow-text']}>Folow</h2>
                             <h2 className={styles['remove-text']}>Remove</h2>

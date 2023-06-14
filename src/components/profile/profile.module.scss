@@ -3,9 +3,9 @@
   width: 1920px;
 }
 .profile-timeline {
+  width: 1014px;
   margin-left: 0px;
   text-align: start;
-  width: 1014px;
 }
 .profile-cover {
   width: 1014px;
@@ -48,7 +48,9 @@
   display: block;
   box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.18);
   position: relative;
+  bottom: 80px;
 }
+
 .profile-name {
   align-self: center;
   display: flex;
@@ -283,21 +285,21 @@
   justify-content: space-around;
 }
 .left-side {
-  width: 350px;
+  width: 366px;
 }
 // .middle {
 // }
 .right-side {
-  width: 350px;
+  width: 460px;
 }
 .photos {
+  width: 350px;
   background-color: #f9e0bb;
   border-radius: 50px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 20px;
-  width: 350px;
 }
 .photos-img {
   border-radius: 15px;
@@ -306,6 +308,14 @@
   width: 150px;
 }
 
+.lastphotos-img {
+  border-radius: 15px;
+  padding-bottom: 20px;
+  height: 150px;
+  width: 150px;
+  // filter: blur(3px);
+  // -webkit-filter: blur(3px);
+}
 .left-text {
   margin-left: 30px;
   margin-top: 20px;
@@ -317,10 +327,8 @@
   flex-direction: column;
 }
 .dp-container {
-  top: 580px;
   position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
+  left: 855px;
 }
 .post-caption {
   display: flex;
@@ -422,4 +430,19 @@
   border-radius: 50px;
   width: 100px;
   color: #fff;
+}
+.photo{
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  font-weight: 900;
+  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.friend-img {
+  border-radius: 15px;
+  // padding-bottom: 20px;
+  height: 150px;
+  width: 150px;
 }

@@ -22,12 +22,11 @@
   flex-direction: row;
 }
 .logoname {
-  position: relative;
+  position: absolute;
   border-radius: 0px;
   padding: 0px;
-  margin: 0px 0px 0px 100px;
   font-size: 50px;
-  right: 380px;
+  left: 180px;
 }
 .search-input {
   width: 401px;
@@ -55,3 +54,5 @@
 
   // color: var(--color-gray);
 }
+
+

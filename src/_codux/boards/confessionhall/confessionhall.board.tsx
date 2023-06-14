@@ -3,5 +3,9 @@ import { Confessionhall } from '../../../components/confessionhall/confessionhal
 
 export default createBoard({
     name: 'Confessionhall',
-    Board: () => <Confessionhall />
+    Board: () => <Confessionhall />,
+    environmentProps: {
+        windowWidth: 1920,
+        windowHeight: 2490,
+    },
 });
