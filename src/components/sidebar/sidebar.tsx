@@ -2,6 +2,10 @@ import styles from './sidebar.module.scss';
 import classNames from 'classnames';
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 import { responsiveFontSizes } from '@mui/material';
+import CircleNotificationsRoundedIcon from '@mui/icons-material/CircleNotificationsRounded';
+import TextSnippetRoundedIcon from '@mui/icons-material/TextSnippetRounded';
+import EditCalendarRoundedIcon from '@mui/icons-material/EditCalendarRounded';
+import SettingsRoundedIcon from '@mui/icons-material/SettingsRounded';
 
 export interface SidebarProps {
     className?: string;
@@ -26,27 +30,73 @@ export const Sidebar = ({ className }: SidebarProps) => {
                 </div>
             </div>
             <div className={styles['menu-items']}>
-                <div className={styles['profile-side']}>
-                    <AccountCircleRoundedIcon className="custom-icon"  />
+                <div className={classNames(styles['profile-side'], styles['menu-item'])}>
+                    <AccountCircleRoundedIcon
+                        style={{
+                            fontSize: '50px',
+                            color: '#E74646',
+                            position: 'relative',
+                            marginLeft: '40px',
+                            marginTop: '10px',
+                        }}
+                    />
                     <h1 className={styles['sidebar-text']}>Profile</h1>
+
                 </div>
                 <hr className={styles.line} />
-                <div className={styles['notifications']}>
+
+                <div className={styles['menu-item']}>
+                    <CircleNotificationsRoundedIcon
+                    style={{
+                        fontSize: '50px',
+                        color: '#E74646',
+                        position: 'relative',
+                        marginLeft: '40px',
+                        marginTop: '10px',
+                    }}
+                    />
                     <h1 className={styles['sidebar-text']}>Notifications</h1>
                 </div>
                 <hr className={styles.line} />
-                <div className={styles['confession-hall']}>
+                <div className={styles['menu-item']}>
+                    <TextSnippetRoundedIcon 
+                    style={{
+                        fontSize: '50px',
+                        color: '#E74646',
+                        position: 'relative',
+                        marginLeft: '40px',
+                        marginTop: '10px',
+                    }}
+                    />
+
                     <h1 className={styles['sidebar-text']}>Confession Hall</h1>
                 </div>
                 <hr className={styles.line} />
-                <div className={styles['campus-chronicles']}>
+                <div className={styles['menu-item']}>
+                    <EditCalendarRoundedIcon
+                    style={{
+                        fontSize: '50px',
+                        color: '#E74646',
+                        position: 'relative',
+                        marginLeft: '40px',
+                        marginTop: '10px',
+                    }}
+                    />
                     <h1 className={styles['sidebar-text']}>Campus Chronicles</h1>
                 </div>
                 <hr className={styles.line} />
-                <div className={styles['settings']}>
+                <div className={styles['menu-item']}>
+                    <SettingsRoundedIcon
+                    style={{
+                        fontSize: '50px',
+                        color: '#E74646',
+                        position: 'relative',
+                        marginLeft: '40px',
+                        marginTop: '10px',
+                    }}
+                    />
                     <h1 className={styles['sidebar-text']}>Settings</h1>
                 </div>
-                <hr className={styles.line} />
             </div>
         </div>
     );

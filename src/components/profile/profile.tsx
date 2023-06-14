@@ -21,32 +21,67 @@ export const Profile = ({ className }: ProfileProps) => {
                     <h2 className={classNames(styles['left-text'], styles['left-text'])}>Photos</h2>
                     <div className={styles.photos}>
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725581/bg_1_sval7r.png"
                             alt=""
                             className={styles['photos-img']}
                         />
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725577/pangarap_qpk16a.jpg"
                             alt=""
                             className={styles['photos-img']}
                         />
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725577/lagoon_iz10zd.jpg"
                             alt=""
                             className={styles['photos-img']}
                         />
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725577/erica_story_wvnmrq.jpg"
                             alt=""
                             className={styles['photos-img']}
                         />
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725576/calauan_phxa5x.jpg"
                             alt=""
                             className={styles['photos-img']}
                         />
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1657729318/privateroom_pugvkn.jpg"
+                            alt=""
+                            className={styles['photos-img']}
+                        />
+                    </div>
+                    <h2 className={classNames(styles['left-text'], styles['left-text'])}>
+                        Friends
+                    </h2>
+                    <div className={styles.photos}>
+                        <img
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725577/jen_zgamjt.jpg"
+                            alt=""
+                            className={styles['photos-img']}
+                        />
+                        <img
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725576/Erica_prjcln.jpg"
+                            alt=""
+                            className={styles['photos-img']}
+                        />
+                        <img
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725577/karlos_f4eahv.jpg"
+                            alt=""
+                            className={styles['photos-img']}
+                        />
+                        <img
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725639/hanz_mpnmar.png"
+                            alt=""
+                            className={styles['photos-img']}
+                        />
+                        <img
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725576/calauan_phxa5x.jpg"
+                            alt=""
+                            className={styles['photos-img']}
+                        />
+                        <img
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1657729318/privateroom_pugvkn.jpg"
                             alt=""
                             className={styles['photos-img']}
                         />
@@ -92,22 +127,22 @@ export const Profile = ({ className }: ProfileProps) => {
                     </p>
                     <div className={styles['icons-div']}>
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686726331/Facebook-logo_oqj8in.png"
                             alt=""
                             className={classNames(styles.divicons, styles['icon-img'])}
                         />
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686726302/twitter_ku3vwf.png"
                             alt=""
                             className={classNames(styles.divicons, styles['icon-img'])}
                         />
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686726301/telegram_upmppy.png"
                             alt=""
                             className={classNames(styles.divicons, styles['icon-img'])}
                         />
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686726301/instagram_ndgwgf.png"
                             alt=""
                             className={classNames(styles.divicons, styles['icon-img'])}
                         />
@@ -123,12 +158,12 @@ export const Profile = ({ className }: ProfileProps) => {
                             placeholder="Whats on your mind Ronald?"
                         />
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686726484/galley_xjq7uv.jpg"
                             alt=""
                             className={styles['icon-butt']}
                         />
                         <img
-                            src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                            src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686726532/music_ry5k5e.png"
                             alt=""
                             className={styles['icon-butt']}
                         />
@@ -149,12 +184,17 @@ export const Profile = ({ className }: ProfileProps) => {
                         <div className={styles['post-text']}>
                             <h1 className={styles['post-title']}>Great Nature!!</h1>
                             <h1 className={styles['post-category']}>Nature</h1>
-                            <h3 className={styles['post-caption']}>
+                            <h3
+                                className={classNames(
+                                    styles['post-caption'],
+                                    styles['post-caption']
+                                )}
+                            >
                                 This is how we cool off on a hot weather before 😍 nakakamiss naman
                                 🤣 #exploreagain #woooooh
                             </h3>
                             <img
-                                src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725577/lagoon_iz10zd.jpg"
                                 alt=""
                                 className={styles['image-post']}
                             />
@@ -174,14 +214,18 @@ export const Profile = ({ className }: ProfileProps) => {
                             </div>
                         </div>
                         <div className={styles['post-text']}>
-                            <h1 className={styles['post-title']}>Great Nature!!</h1>
-                            <h1 className={styles['post-category']}>Nature</h1>
+                            <h1 className={styles['post-title']}>FEWA</h1>
+                            <h1 className={styles['post-category']}>Food</h1>
                             <h3 className={styles['post-caption']}>
-                                This is how we cool off on a hot weather before 😍 nakakamiss naman
-                                🤣 #exploreagain #woooooh
+                                Do you know what FEWA is? P.U.P proudly presents Footlong in Egg
+                                Wrapped Around. PUP being known for excelling students and
+                                professors, giving quality education for years is not just good with
+                                it, but also fond of promoting and experimenting food that will
+                                surely love by everyone. FEWA is originated in PUP, and you will
+                                surely love the taste of it 😍
                             </h3>
                             <img
-                                src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725576/fewa_a4cckl.jpg"
                                 alt=""
                                 className={styles['image-post']}
                             />
@@ -189,7 +233,79 @@ export const Profile = ({ className }: ProfileProps) => {
                     </div>
                 </div>
                 <div className={styles['right-side']}>
-                    <Sidebar />
+                    <div className={styles['follow-umk']}>
+                        <h1 className={styles['people-title']}>People You May Know...</h1>
+                        <div className={styles.users}>
+                            <img
+                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725577/karlos_f4eahv.jpg"
+                                alt=""
+                                className={styles['user-dp']}
+                            />
+                            <div className={styles['user-category']}>
+                                <h1 className={styles['user-name']}>Karlos Daniel Vicario</h1>
+                                <div className={styles['follow-remove-container']}>
+                                    <h2 className={styles['follow-text']}>Folow</h2>
+                                    <h2 className={styles['remove-text']}>Remove</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.users}>
+                            <img
+                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725576/Erica_prjcln.jpg"
+                                alt=""
+                                className={styles['user-dp']}
+                            />
+                            <div className={styles['user-category']}>
+                                <h1 className={styles['user-name']}>Erica Joy Cavaneyro</h1>
+                                <div className={styles['follow-remove-container']}>
+                                    <h2 className={styles['follow-text']}>Folow</h2>
+                                    <h2 className={styles['remove-text']}>Remove</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.users}>
+                            <img
+                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725639/hanz_mpnmar.png"
+                                alt=""
+                                className={styles['user-dp']}
+                            />
+                            <div className={styles['user-category']}>
+                                <h1 className={styles['user-name']}>Hannah Grace Joaquin</h1>
+                                <div className={styles['follow-remove-container']}>
+                                    <h2 className={styles['follow-text']}>Folow</h2>
+                                    <h2 className={styles['remove-text']}>Remove</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.users}>
+                            <img
+                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725577/jen_zgamjt.jpg"
+                                alt=""
+                                className={styles['user-dp']}
+                            />
+                            <div className={styles['user-category']}>
+                                <h1 className={styles['user-name']}>Jerzen Espiritu</h1>
+                                <div className={styles['follow-remove-container']}>
+                                    <h2 className={styles['follow-text']}>Folow</h2>
+                                    <h2 className={styles['remove-text']}>Remove</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.users}>
+                            <img
+                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686735401/joyjoy_fili7f.jpg"
+                                alt=""
+                                className={styles['user-dp']}
+                            />
+                            <div className={styles['user-category']}>
+                                <h1 className={styles['user-name']}>Joyjoy Erica</h1>
+                                <div className={styles['follow-remove-container']}>
+                                    <h2 className={styles['follow-text']}>Folow</h2>
+                                    <h2 className={styles['remove-text']}>Remove</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
