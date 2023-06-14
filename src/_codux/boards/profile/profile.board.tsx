@@ -6,8 +6,8 @@ export default createBoard({
     Board: () => <Profile />,
     environmentProps: {
         windowWidth: 1920,
-        windowHeight: 1483,
-        canvasHeight: 2176,
+        windowHeight: 2107,
+        canvasHeight: 2468,
         canvasWidth: 1920,
     },
 });

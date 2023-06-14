@@ -1,0 +1,15 @@
+.root {
+}
+.container {
+  width: 1920px;
+  display: grid;
+  grid-auto-flow: column;
+  align-content: space-evenly;
+  justify-items: center;
+  align-items: start;
+  justify-content: space-around;
+}
+.left-side {
+}
+.middle {
+}

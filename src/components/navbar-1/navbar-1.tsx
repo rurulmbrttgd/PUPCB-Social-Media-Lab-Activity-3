@@ -19,10 +19,15 @@ export const Navbar1 = ({ className }: Navbar1Props) => {
                 className={styles.image1}
             />
             <h1 className={styles.logoname}>PUP BuzzBite</h1>
-            <SearchIcon
-                style={{ fontSize: '50px', color: '#E74646', position: 'absolute', right: '500px' }}
-            />
             <input className={styles['search-input']} placeholder={'search'} />
+             <SearchIcon
+                style={{ 
+                    fontSize: '50px', 
+                    color: '#E74646', 
+                    position: 'relative',
+                    marginRight: '1px',
+                    }}
+            />
         </div>
     );
 };
