@@ -1,0 +1,101 @@
+.root {
+  width: 350px;
+}
+.follow-umk {
+  width: 350px;
+  background-color: #f9e0bb;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.people-title {
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  color: #e74646;
+  width: 300px;
+  display: flex;
+  margin: 0px 0px 0px 30px;
+}
+.users {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+}
+.user-dp {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 100px;
+  margin-left: 25px;
+  margin-top: 30px;
+  border-radius: 1000px;
+}
+.user-name {
+  text-align: start;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 80px;
+  width: 290px;
+}
+.user-category {
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  margin-left: 10px;
+  margin-top: 30px;
+  align-items: center;
+  justify-items: center;
+}
+.Follow-button {
+  display: flex;
+  flex-direction: column;
+  width: 141px;
+  border-radius: 50px;
+  padding: 0px;
+  margin: 0px;
+  height: 25px;
+}
+.remove-button {
+  width: 80px;
+}
+.follow-remove-container {
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 1px;
+  gap: 2px;
+  flex-direction: row;
+}
+.follow-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #bd3f3f;
+  border-radius: 50px;
+  width: 80px;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.remove-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  text-align: center;
+  background: rgba(231, 70, 70, 0.51);
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+  width: 90px;
+}

@@ -2,6 +2,7 @@ import styles from './profile.module.scss';
 import classNames from 'classnames';
 import { Navbar1 } from '../navbar-1/navbar-1';
 import { Sidebar } from '../sidebar/sidebar';
+import { People } from '../people/people';
 
 export interface ProfileProps {
     className?: string;
@@ -233,79 +234,7 @@ export const Profile = ({ className }: ProfileProps) => {
                     </div>
                 </div>
                 <div className={styles['right-side']}>
-                    <div className={styles['follow-umk']}>
-                        <h1 className={styles['people-title']}>People You May Know...</h1>
-                        <div className={styles.users}>
-                            <img
-                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725577/karlos_f4eahv.jpg"
-                                alt=""
-                                className={styles['user-dp']}
-                            />
-                            <div className={styles['user-category']}>
-                                <h1 className={styles['user-name']}>Karlos Daniel Vicario</h1>
-                                <div className={styles['follow-remove-container']}>
-                                    <h2 className={styles['follow-text']}>Folow</h2>
-                                    <h2 className={styles['remove-text']}>Remove</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.users}>
-                            <img
-                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725576/Erica_prjcln.jpg"
-                                alt=""
-                                className={styles['user-dp']}
-                            />
-                            <div className={styles['user-category']}>
-                                <h1 className={styles['user-name']}>Erica Joy Cavaneyro</h1>
-                                <div className={styles['follow-remove-container']}>
-                                    <h2 className={styles['follow-text']}>Folow</h2>
-                                    <h2 className={styles['remove-text']}>Remove</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.users}>
-                            <img
-                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725639/hanz_mpnmar.png"
-                                alt=""
-                                className={styles['user-dp']}
-                            />
-                            <div className={styles['user-category']}>
-                                <h1 className={styles['user-name']}>Hannah Grace Joaquin</h1>
-                                <div className={styles['follow-remove-container']}>
-                                    <h2 className={styles['follow-text']}>Folow</h2>
-                                    <h2 className={styles['remove-text']}>Remove</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.users}>
-                            <img
-                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725577/jen_zgamjt.jpg"
-                                alt=""
-                                className={styles['user-dp']}
-                            />
-                            <div className={styles['user-category']}>
-                                <h1 className={styles['user-name']}>Jerzen Espiritu</h1>
-                                <div className={styles['follow-remove-container']}>
-                                    <h2 className={styles['follow-text']}>Folow</h2>
-                                    <h2 className={styles['remove-text']}>Remove</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.users}>
-                            <img
-                                src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686735401/joyjoy_fili7f.jpg"
-                                alt=""
-                                className={styles['user-dp']}
-                            />
-                            <div className={styles['user-category']}>
-                                <h1 className={styles['user-name']}>Joyjoy Erica</h1>
-                                <div className={styles['follow-remove-container']}>
-                                    <h2 className={styles['follow-text']}>Folow</h2>
-                                    <h2 className={styles['remove-text']}>Remove</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <People />
                 </div>
             </div>
         </div>

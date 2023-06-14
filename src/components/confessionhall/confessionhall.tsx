@@ -2,6 +2,7 @@ import styles from './confessionhall.module.scss';
 import classNames from 'classnames';
 import { Navbar1 } from '../navbar-1/navbar-1';
 import { Sidebar } from '../sidebar/sidebar';
+import { People } from '../people/people';
 
 export interface ConfessionhallProps {
     className?: string;
@@ -20,6 +21,9 @@ export const Confessionhall = ({ className }: ConfessionhallProps) => {
                     <Sidebar />
                 </div>
                 <div className={styles.middle} />
+                <div className={styles['right-side']}>
+                    <People />
+                </div>
             </div>
         </div>
     );

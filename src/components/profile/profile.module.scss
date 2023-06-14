@@ -3,9 +3,9 @@
   width: 1920px;
 }
 .profile-timeline {
-  width: 1014px;
   margin-left: 0px;
   text-align: start;
+  width: 1014px;
 }
 .profile-cover {
   width: 1014px;
@@ -283,21 +283,21 @@
   justify-content: space-around;
 }
 .left-side {
-  width: 366px;
+  width: 350px;
 }
 // .middle {
 // }
 .right-side {
-  width: 460px;
+  width: 350px;
 }
 .photos {
-  width: 350px;
   background-color: #f9e0bb;
   border-radius: 50px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 20px;
+  width: 350px;
 }
 .photos-img {
   border-radius: 15px;
