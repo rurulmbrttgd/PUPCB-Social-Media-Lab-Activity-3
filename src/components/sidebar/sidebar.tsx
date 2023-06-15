@@ -6,6 +6,7 @@ import CircleNotificationsRoundedIcon from '@mui/icons-material/CircleNotificati
 import TextSnippetRoundedIcon from '@mui/icons-material/TextSnippetRounded';
 import EditCalendarRoundedIcon from '@mui/icons-material/EditCalendarRounded';
 import SettingsRoundedIcon from '@mui/icons-material/SettingsRounded';
+// import {Link} from "react-router-dom";
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -33,19 +34,22 @@ export const Sidebar = ({ className }: SidebarProps) => {
                 </div>
             </div>
             <div className={styles['menu-items']}>
-                <div className={classNames(styles['profile-side'], styles['menu-item'])}>
-                    <AccountCircleRoundedIcon
-                        style={{
-                            fontSize: '50px',
-                            color: '#E74646',
-                            position: 'relative',
-                            marginLeft: '40px',
-                            marginTop: '10px',
-                        }}
-                    />
-                    <h1 className={styles['sidebar-text']}>Profile</h1>
+                <Link to="/">
+                    <div className={classNames(styles['profile-side'], styles['menu-item'])}>
+                        <AccountCircleRoundedIcon
+                            style={{
+                                fontSize: '50px',
+                                color: '#E74646',
+                                position: 'relative',
+                                marginLeft: '40px',
+                                marginTop: '10px',
+                            }}
+                            className={styles['side-icon']}
+                        />
+                        <h1 className={styles['sidebar-text']}>Profile</h1>
 
-                </div>
+                    </div>
+                </Link>
                 <hr className={styles.line} />
 
                 <div className={styles['menu-item']}>
@@ -57,12 +61,13 @@ export const Sidebar = ({ className }: SidebarProps) => {
                         marginLeft: '40px',
                         marginTop: '10px',
                     }}
+                    className={styles['side-icon']}
                     />
                     <h1 className={styles['sidebar-text']}>Notifications</h1>
                 </div>
                 <hr className={styles.line} />
                 <div className={styles['menu-item']}>
-                <Link to="/confession-hall" className={styles['menu-item']}>
+                <Link to="/confession" className={styles['menu-item']}>
                     <TextSnippetRoundedIcon 
                     style={{
                         fontSize: '50px',
@@ -71,9 +76,11 @@ export const Sidebar = ({ className }: SidebarProps) => {
                         marginLeft: '40px',
                         marginTop: '10px',
                     }}
+                    className={styles['side-icon']}
                     />
 
                     <h1 className={styles['sidebar-text']}>Confession Hall</h1>
+                    </Link>
                 </div>
                 <hr className={styles.line} />
                 <div className={styles['menu-item']}>
@@ -85,8 +92,10 @@ export const Sidebar = ({ className }: SidebarProps) => {
                         marginLeft: '40px',
                         marginTop: '10px',
                     }}
+                    className={styles['side-icon']}
                     />
                     <h1 className={styles['sidebar-text']}>Campus Chronicles</h1>
+                    
                 </div>
                 <hr className={styles.line} />
                 <div className={styles['menu-item']}>
@@ -98,6 +107,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
                         marginLeft: '40px',
                         marginTop: '10px',
                     }}
+                    className={styles['side-icon']}
                     />
                     <h1 className={styles['sidebar-text']}>Settings</h1>
                 </div>

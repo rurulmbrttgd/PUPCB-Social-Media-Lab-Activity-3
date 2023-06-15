@@ -86,7 +86,7 @@
   transition: .5s;
 }
 
-.menu-item:hover SettingsRoundedIcon{
-  color:black;
-  transition: .5s;
+.menu-item:hover side-icon{
+  color:black !important;
+  transition: .5s !important;
 }

@@ -1,11 +1,24 @@
 import styles from './App.module.scss';
-import { Navbar1 } from './components/navbar-1/navbar-1';
+import { Confessionhall } from './components/confessionhall/confessionhall';
 import { Profile } from './components/profile/profile';
+import {
+    BrowserRouter,
+    Routes,
+    Route
+  } from "react-router-dom";
 
 function App() {
     return (
         <div className={styles.App}>
-            <Profile />
+        <BrowserRouter>
+            <Routes>
+            <Route path='/' Component={Profile}/>
+            </Routes>
+            <Routes>
+            <Route path='/confession' Component={Confessionhall}/>
+            </Routes>
+       </BrowserRouter> 
+            
         </div>
     );
 }

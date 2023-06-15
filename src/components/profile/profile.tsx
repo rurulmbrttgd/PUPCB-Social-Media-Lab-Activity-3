@@ -142,7 +142,8 @@ export const Profile = ({ className }: ProfileProps) => {
                             src="https://res.cloudinary.com/dxzvh2xex/image/upload/v1686725581/bg_1_sval7r.png"
                             alt=""
                             className={styles['photos-img']}
-                            onClick={handleClick7}
+      
+                          onClick={handleClick7}
                         />
 
                         <div
@@ -500,6 +501,7 @@ export const Profile = ({ className }: ProfileProps) => {
                                 <h2 className={styles['post-date']}>PUP Main Campus</h2>
                             </div>
                         </div>
+
                         <div className={styles['post-text']}>
                             <h1 className={styles['post-title']}>Great Nature!!</h1>
                             <h1 className={styles['post-category']}>Nature</h1>

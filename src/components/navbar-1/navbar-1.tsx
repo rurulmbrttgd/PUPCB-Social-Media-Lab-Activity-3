@@ -19,7 +19,7 @@ export const Navbar1 = ({ className }: Navbar1Props) => {
                 className={styles.image1}
             />
             <h1 className={styles.logoname}>PUP BuzzBite</h1>
-            <div className={styles['input-container']} style={{position: 'relative', left: '145px',}}>
+            <div className={styles['input-container']} style={{position: 'relative'}}>
                 <input className={styles['search-input']} placeholder={'search'} />
                     <SearchIcon
                         style={{ 
