@@ -6,6 +6,9 @@ import CircleNotificationsRoundedIcon from '@mui/icons-material/CircleNotificati
 import TextSnippetRoundedIcon from '@mui/icons-material/TextSnippetRounded';
 import EditCalendarRoundedIcon from '@mui/icons-material/EditCalendarRounded';
 import SettingsRoundedIcon from '@mui/icons-material/SettingsRounded';
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 export interface SidebarProps {
     className?: string;
@@ -59,6 +62,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
                 </div>
                 <hr className={styles.line} />
                 <div className={styles['menu-item']}>
+                <Link to="/confession-hall" className={styles['menu-item']}>
                     <TextSnippetRoundedIcon 
                     style={{
                         fontSize: '50px',

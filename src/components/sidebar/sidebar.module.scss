@@ -78,4 +78,15 @@
   cursor: pointer;
   translate: all 300ms ease;
   position: relative;
+  transition: .5s;
+}
+
+.menu-item:hover h1{
+  color:black;
+  transition: .5s;
+}
+
+.menu-item:hover SettingsRoundedIcon{
+  color:black;
+  transition: .5s;
 }
